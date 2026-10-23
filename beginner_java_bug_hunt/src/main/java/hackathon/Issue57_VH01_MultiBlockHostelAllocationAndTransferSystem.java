@@ -5,4 +5,11 @@ public class Issue57_VH01_MultiBlockHostelAllocationAndTransferSystem {
 
     // Required method signature: static int countAvailableRoomCapacity(int[] values)
     // Implement the method described in the issue. Do not change the supplied test values.
+    static int countAvailableRoomCapacity(int[] values){
+        int count = 0;
+        for(int val : values){
+            if(val > 0) count++;
+        }
+        return count;
+    }
 }
