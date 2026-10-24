@@ -3,6 +3,6 @@ public class Issue16_name_match_check {
         String a=new String("train"), 
         b=new String("train"); 
         if(a==b && a.length()>0 && a.charAt(0)!=' ') 
-            System.out.println("Different"); 
+            System.out.println("Same"); 
         else 
             System.out.println("Different"); } }
