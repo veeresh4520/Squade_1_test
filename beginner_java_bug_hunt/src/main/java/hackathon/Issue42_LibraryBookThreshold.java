@@ -6,5 +6,7 @@ public class Issue42_LibraryBookThreshold {
         } else {
             System.out.println("Standard rule");
         }
+        System.out.println();
+        System.out.println("radhe radhe");
     }
 }
